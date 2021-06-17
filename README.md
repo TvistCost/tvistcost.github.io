@@ -13,5 +13,7 @@
 [Урок 11](https://tvistcost.github.io/lesson_11/ "Мои домашние задания") - Снипеты   
 [Урок 12](https://tvistcost.github.io/lesson_12/ "Мои домашние задания") - Работа с репозиторием на github  
 [Урок 13.1](https://tvistcost.github.io/lesson_13/ "Мои домашние задания") и [Урок 13.2](https://tvistcost.github.io/lesson_13_1/ "Мои домашние задания") - Адаптивная верстка. Подготовка файлов. Верстка шапки сайта 
+
 [Урок 14.1](https://tvistcost.github.io/lesson_14/ "Мои домашние задания") и [Урок 14.2](https://tvistcost.github.io/lesson_14_1/ "Мои домашние задания") - Подключение шрифотов. Верстка первого экрана
+
 [Урок 15](https://tvistcost.github.io/lesson_15/ "Мои домашние задания") - Псевдоклассы и псевдоэлементы
