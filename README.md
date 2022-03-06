@@ -18,4 +18,9 @@
 [Урок 15.1](https://tvistcost.github.io/lesson_15_1/ "Мои домашние задания") - Эффекты при наведении и адаптив первого экрана  
 [Урок 17](https://tvistcost.github.io/lesson_17/ "Мои домашние задания") - Всплывающие окна  
 [Урок 18](https://tvistcost.github.io/lesson_18/ "Мои домашние задания") - Табы и аккордеон на сайте  
-[Урок 18.1](https://tvistcost.github.io/lesson_18_1/ "Мои домашние задания") - Верстка блока с ценами   
+[Урок 18.1](https://tvistcost.github.io/lesson_18_1/ "Мои домашние задания") - Верстка блока с ценами  
+[Урок 19](https://tvistcost.github.io/lesson_19/ "Мои домашние задания") - Анимация на CSS3  
+[Урок 19.1](https://tvistcost.github.io/lesson_19_1/ "Мои домашние задания") - Верстка блока с отзывами   
+[Урок 20](https://tvistcost.github.io/lesson_20/ "Мои домашние задания") - Видео-фон на сайте 
+[Урок 20.1](https://tvistcost.github.io/lesson_20_1/ "Мои домашние задания") - Доверстали блок с отзывами   
+[Урок 21](https://tvistcost.github.io/lesson_21/ "Мои домашние задания") - Parallax и Rellax эффект для сайта  
