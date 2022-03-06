@@ -23,4 +23,4 @@
 [Урок 19.1](https://tvistcost.github.io/lesson_19_1/ "Мои домашние задания") - Верстка блока с отзывами   
 [Урок 20](https://tvistcost.github.io/lesson_20/ "Мои домашние задания") - Видео-фон на сайте   
 [Урок 20.1](https://tvistcost.github.io/lesson_20_1/ "Мои домашние задания") - Доверстали блок с отзывами   
-[Урок 21](https://tvistcost.github.io/lesson_21/ "Мои домашние задания") - Parallax и Rellax эффект для сайта  
+[Урок 21](https://tvistcost.github.io/lesson_21/ "Мои домашние задания") - Parallax и Rellax эффект для сайт  
