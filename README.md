@@ -21,6 +21,6 @@
 [Урок 18.1](https://tvistcost.github.io/lesson_18_1/ "Мои домашние задания") - Верстка блока с ценами  
 [Урок 19](https://tvistcost.github.io/lesson_19/ "Мои домашние задания") - Анимация на CSS3  
 [Урок 19.1](https://tvistcost.github.io/lesson_19_1/ "Мои домашние задания") - Верстка блока с отзывами   
-[Урок 20](https://tvistcost.github.io/lesson_20/ "Мои домашние задания") - Видео-фон на сайте 
+[Урок 20](https://tvistcost.github.io/lesson_20/ "Мои домашние задания") - Видео-фон на сайте   
 [Урок 20.1](https://tvistcost.github.io/lesson_20_1/ "Мои домашние задания") - Доверстали блок с отзывами   
 [Урок 21](https://tvistcost.github.io/lesson_21/ "Мои домашние задания") - Parallax и Rellax эффект для сайта  
