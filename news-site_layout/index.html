@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/iconsfont.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- warning -->
+  <div class="warning">
+    <div class="container-warning">
+      <div class="warning-menu">
+        <nav class="warning-body" id="warning-menu">
+          <ul class="warning-list">
+            <li class="warning-link warning-link_warn wl1">
+              <i class="icon-warning"></i>You are not protected
+            </li>
+            <li class="warning-link wl2">
+              Your IP Address: <span class="yourIP">107.3.176.194</span>
+            </li>
+            <li class="warning-link wl3">
+              Your ISP: <span class="yourISP">Comcast Cable</span>
+            </li>
+            <li class="warning-link wl4">
+              <a href="#" class="leanMore">Learn More &#8250;</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="warning-button">
+      <div class="warning-button_btn righted">
+        <button id="hider" class="warning-button_close" type="button">
+          <i class="icon-close"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- nav header-->
+  <header class="header">
+    <div class="header-content container">
+      <div class="header-menu">
+        <a href="#" class="logo-min">
+          <img class="logo-min-img" src="img/logo.svg" alt="privateinternetaccess" />
+        </a>
+
+        <a href="#" class="header-menu-button">
+          <span class="header-menu-lines"></span>
+        </a>
+
+        <nav class="menu-body">
+          <ul class="menu-list">
+            <li class="ml-1">
+              <a href="#" class="menu-link"><img class="logo" src="img/logo.svg" alt="logo" /></a>
+            </li>
+            <li class="ml-2">
+              <div class="dropdown">
+                <button class="menu-link ml-drop-1 dropbtn" onclick="myFunctionOne()">
+                  WHY US
+                  <i class="icon-dropdown"></i>
+                </button>
+                <div class="dropdown-content" id="ml-drop-1">
+                  <a href="#" class="menu-link-drop">Link 1</a>
+                  <a href="#" class="menu-link-drop">Link 2</a>
+                  <a href="#" class="menu-link-drop">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="ml-3"><a href="#" class="menu-link">VPN APPS</a></li>
+            <li class="ml-4">
+              <div class="dropdown">
+                <button onclick="myFunctionTwo()" class="menu-link ml-drop-2 dropbtn">
+                  SUPPORT <i class="icon-dropdown"></i>
+                </button>
+                <div class="dropdown-content" id="ml-drop-2">
+                  <a href="#" class="menu-link-drop">Link 1</a>
+                  <a href="#" class="menu-link-drop">Link 2</a>
+                  <a href="#" class="menu-link-drop">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="ml-5">
+              <div class="dropdown">
+                <button onclick="myFunctionThree()" class="menu-link ml-drop-3 dropbtn">
+                  Resources <i class="icon-dropdown"></i>
+                </button>
+                <div class="dropdown-content" id="ml-drop-3">
+                  <a href="#" class="menu-link-drop">Link 1</a>
+                  <a href="#" class="menu-link-drop">Link 2</a>
+                  <a href="#" class="menu-link-drop">Link 3</a>
+                </div>
+              </div>
+            </li>
+            <li class="ml-6">
+              <a href="#" class="menu-link menu-link-drop">LOG IN</a>
+            </li>
+            <li class="ml-7">
+              <a href="#" class="menu-link">GET STARTED</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="get-started">GET STARTED</a>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- end nav headr -->
+
+  <!-- TV addons news -->
+  <section class="addons">
+    <div class="addons-container container">
+
+      <img class="addons-img" src="img/header-nw.png" alt="addons">
+
+      <div class="addons-text">
+        <a href="#" class="addons-news">TV Addons: Legal battle against Canadian media giants demonstrates severe
+          consequences facing developers accused of copyright infringement</a>
+        <div class="addons-text-author">
+          <p class="addons-author">Danica Sergison <span class="addons-data">| JUL 08, 2018</span></p>
+          <p class="addons-tag">Copyright, News, Open Source, Privacy</p>
+          <p class="addons-message"><i class="icon-messeg"></i><span class="addons-count"> 0</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- main -->
+  <main class="page">
+
+    <!-- navbar tags -->
+    <section .nav-tags>
+      <nav class="tags">
+        <div class="container">
+          <div class="tags-container">
+
+            <span class="navbar-tag">TAGS:</span>
+
+            <div class="navbar-tags-diff">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">bitcoin</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">bittorrent</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">irc</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">news</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">privacy</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">programming</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">security</a></li>
+                <li class="nav-item push"><a href="#" class="nav-link team">team</a></li>
+                <li class="nav-item"><a href="#" class="nav-link contact">contact</a></li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    </section>
+
+    <div class="container-contant container">
+      <!-- posts -->
+      <article class="post-content ">
+        <section class="col-main posts">
+
+          <span class="recent-posts-header">Recent posts</span>
+
+
+          <div class="internet">
+            <div class="internet-container">
+
+              <img class="internet-img" src="img/internet-server.png" alt="internet">
+
+              <div class="internet-text">
+                <a href="#" class="internet-news">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken
+                  Promises</a>
+                <div class="internet-text-author">
+                  <p class="internet-author">Derek Zimmer <span class="internet-data">| JUL 25, 2018</span></p>
+                  <p class="internet-tag">Governments, Networking, Open Source, Privacy, Security</p>
+                  <p class="internet-message"><i class="icon-messeg"></i><span class="internet-count"> 0</span></p>
+                </div>
+              </div>
+              <hr class="internet-line" color="#EBECED" size="1" width="740">
+            </div>
+          </div>
+
+
+          <div class="internet">
+            <div class="internet-container">
+
+              <img class="internet-img" src="img/privat-planae.png" alt="internet">
+
+              <div class="internet-text">
+                <a href="#" class="internet-news">How to get cheaper flights using a VPN</a>
+                <div class="internet-text-author">
+                  <p class="internet-author">Jayson <span class="internet-data">| JUL 24, 2018</span></p>
+                  <p class="internet-tag">Guides</p>
+                  <p class="internet-message"><i class="icon-messeg"></i><span class="internet-count"> 0</span></p>
+                </div>
+              </div>
+              <hr class="internet-line" color="#EBECED" size="1" width="740">
+            </div>
+          </div>
+
+          <div class="internet">
+            <div class="internet-container">
+
+              <img class="internet-img" src="img/battleforthenet.png" alt="internet">
+
+              <div class="internet-text">
+                <a href="#" class="internet-news">Net Neutrality was repealed, but the fight
+                  is far from over</a>
+                <div class="internet-text-author">
+                  <p class="internet-author">Chris Miller <span class="internet-data">| JUL 22, 2018</span></p>
+                  <p class="internet-tag">Governments, Net Neutrality, News</p>
+                  <p class="internet-message"><i class="icon-messeg"></i><span class="internet-count"> 0</span></p>
+                </div>
+              </div>
+              <hr class="internet-line" color="#EBECED" size="1" width="740">
+            </div>
+          </div>
+
+          <div class="internet">
+            <div class="internet-container">
+
+              <img class="internet-img" src="img/internet-server.png" alt="internet">
+
+              <div class="internet-text">
+                <a href="#" class="internet-news">The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken
+                  Promises</a>
+                <div class="internet-text-author">
+                  <p class="internet-author">Danica Sergison <span class="internet-data">| JUL 08, 2018</span></p>
+                  <p class="internet-tag">Copyright, News, Open Source, Privacy</p>
+                  <p class="internet-message"><i class="icon-messeg"></i><span class="internet-count"> 0</span></p>
+                </div>
+              </div>
+              <hr class="internet-line" color="#EBECED" size="1" width="740">
+            </div>
+          </div>
+
+          <div class="internet">
+            <div class="internet-container">
+
+              <img class="internet-img" src="img/privat-planae.png" alt="internet">
+
+              <div class="internet-text">
+                <a href="#" class="internet-news">How to get cheaper flights using a VPN</a>
+                <div class="internet-text-author">
+                  <p class="internet-author">Jayson <span class="internet-data">| JUL 24, 2018</span></p>
+                  <p class="internet-tag">Guides</p>
+                  <p class="internet-message"><i class="icon-messeg"></i><span class="internet-count"> 0</span></p>
+                </div>
+              </div>
+              <hr class="internet-line" color="#EBECED" size="1" width="740">
+            </div>
+          </div>
+
+          <div class="internet">
+            <div class="internet-container">
+
+              <img class="internet-img" src="img/battleforthenet.png" alt="internet">
+
+              <div class="internet-text">
+                <a href="#" class="internet-news">Net Neutrality was repealed, but the fight
+                  is far from over</a>
+                <div class="internet-text-author">
+                  <p class="internet-author">Chris Miller <span class="internet-data">| JUL 22, 2018</span></p>
+                  <p class="internet-tag">Governments, Net Neutrality, News</p>
+                  <p class="internet-message"><i class="icon-messeg"></i><span class="internet-count"> 0</span></p>
+                </div>
+              </div>
+              <hr class="internet-line" color="#EBECED" size="1" width="740">
+            </div>
+          </div>
+
+          <a href="#" class="older-posts-btn">older posts</a>
+
+        </section>
+
+      </article>
+
+      <div class="line-between-block"></div>
+
+      <aside class="col-sidebar">
+        <div class="sidebar-container">
+
+          <div class="search-blog-down">
+            <input type="text" maxlength="12" placeholder="Search blog" class="searchblog">
+            <i class="icon-search searchbutton"></i>
+          </div>
+
+          <div class="announcements">
+            <img class="announcements-bell" src="img/icon/icon-bell.svg" alt="bell">
+            <p class="announcements-header">Announcements</p>
+            <ul class="announcements-list">
+              <li class="announcements-item"><a href="#" class="announcements-link">Upcoming Changes (Live Chat, Less
+                  Censorship, More Access)</a></li>
+              <li class="announcements-item"><a href="#" class="announcements-link">New Servers (US Washington DC)</a>
+              </li>
+              <li class="announcements-item"><a href="#" class="announcements-link">New Servers (US Denver)</a></li>
+              <li class="announcements-item"><a href="#" class="announcements-link">Open Source: Releasing the PIA iOS
+                  Client</a></li>
+              <li class="announcements-item"><a href="#" class="announcements-link">Opera Extension is now available</a>
+              </li>
+            </ul>
+            <hr size="1" width="340" color="#EBECED">
+          </div>
+
+          <div class="popularpost">
+            <img src="img/icon/icon-wifi.svg" alt="bell" class="popularpost-wifi">
+            <p class="popularpost-header">Popular posts</p>
+            <ul class="popularpost-list">
+              <li class="popularpost-item"><a href="#" class="popularpost-link">The Gift of Privacy</a></li>
+              <li class="popularpost-item"><a href="#" class="popularpost-link">UK High Court Censors Many Links To
+                  Popcorn Time: Useless, Dangerous Gesture</a></li>
+              <li class="popularpost-item"><a href="#" class="popularpost-link">About the PIA Client Security and VPN
+                  Security in General</a></li>
+              <li class="popularpost-item"><a href="#" class="popularpost-link">A Private Net Is Just As Fundamental A
+                  Right As Freedom Of Speech</a></li>
+              <li class="popularpost-item"><a href="#" class="popularpost-link">Wiretapping Today Just Doesn’t Mean What
+                  The Word Meant In The 1990s, So Don’t Fall For That Lie</a></li>
+            </ul>
+            <hr size="1" width="340" color="#EBECED">
+          </div>
+          <div class="private-ad-blog">
+            <a href="#" class="private-ad"><img src="img/private-ad.png" alt="privateback" class="ad-private-img"></a>
+          </div>
+          <div class="tags-cloud">
+            <p class="tag-cloud">Tag cloud</p>
+            <a href="#" class="tag-cloud-link"><img src="img/tag-cloud.png" alt="tag cloud" class="tag-cloud-img"></a>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+
+    <section class="pay">
+      <div class="pay-container container">
+        <div class="pay-header">
+          <div class="pay-header-title">
+            Sign up today – 7 day money back guarantee
+          </div>
+        </div>
+        <div class="pay-prices-items">
+          <div class="pay-prices-column">
+
+            <div class="pay-prices-item monthly" tabindex="1">
+              <div class="pay-price-monthly">
+                MONTHLY
+              </div>
+              <div class="pay-price-monthly-hr"></div>
+              <div class="pay-prices-price"><span class="dollar">$</span>6.95 <span class="mo">/mo.</span></div>
+              <div class="pay-prices-price-hr"></div>
+              <div class="pay-price-text text">Includes all VPN features.</div>
+              <div class="pay-price-btn">
+                <button class="pay-price-button">SIGN UP</button>
+              </div>
+            </div>
+
+            <div class="pay-prices-item twoyears" tabindex="1">
+              <div class="pay-price-twoyears">
+                Two Years
+              </div>
+              <div class="pay-price-monthly-hr"></div>
+              <div class="pay-prices-price"><span class="dollar">$</span>2.91 <span class="mo">/mo.</span></div>
+              <div class="pay-prices-price-hr"></div>
+              <div class="pay-price-text text-price"><span class="text-line">$166.80</span> $69.95 per two years</div>
+              <div class="pay-price-save">Save 58%*</div>
+              <div class="pay-price-btn twoyears-btn">
+                <button class="pay-price-button">SIGN UP</button>
+              </div>
+            </div>
+
+            <div class="pay-prices-item yearly" tabindex="1">
+              <div class="pay-price-yearly">
+                YEARLY
+              </div>
+              <div class="pay-price-monthly-hr"></div>
+              <div class="pay-prices-price"><span class="dollar">$</span>3.33 <span class="mo">/mo.</span></div>
+              <div class="pay-prices-price-hr"></div>
+              <div class="pay-price-text text-price"><span class="text-line">$83.40</span> $39.95 per year</div>
+              <div class="pay-price-save">Save 52%*</div>
+              <div class="pay-price-btn yearly-btn">
+                <button class="pay-price-button">SIGN UP</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-ways">Ways to pay:</div>
+        <div class="pay-ways">
+          <div class="pay-ways-column">
+            <div class="pay-ways-item header-ways-pay">Ways to pay:</div>
+            <div class="pay-ways-item visa">
+              <a href="#" class="pay-link">
+                <img src="img/icon/icon-pay/visa.svg" alt="visa" class="pay-img visa-img">
+              </a>
+            </div>
+            <div class="pay-ways-item mc">
+              <a href="#" class="pay-link">
+                <img src="img/icon/icon-pay/mc_vrt_pos.svg" alt="master_card" class="pay-img master-img">
+              </a>
+            </div>
+            <div class="pay-ways-item amex">
+              <a href="#" class="pay-link">
+                <img src="img/icon/icon-pay/amex_logo.svg" alt="amex" class="pay-img amex-img">
+              </a>
+            </div>
+            <div class="pay-ways-item pay_pal">
+              <a href="#" class="pay-link">
+                <img src="img/icon/icon-pay/pay_pal.svg" alt="pay_pal" class="pay-img payPal-img">
+              </a>
+            </div>
+            <div class="pay-ways-item bitcoin">
+              <a href="#" class="pay-link">
+                <img src="img/icon/icon-pay/Bitcoin.svg" alt="bitcoin" class="pay-img bitcoin-img">
+              </a>
+            </div>
+            <div class="pay-ways-item okpay">
+              <a href="#" class="pay-link">
+                <img src="img/icon/icon-pay/OK Pay.svg" alt="okpay" class="pay-img okpay-img">
+              </a>
+            </div>
+            <div class="pay-ways-item amazon">
+              <a href="#" class="pay-link">
+                <img src="img/icon/icon-pay/Amazon-Pay-logo.svg" alt="amazon" class="pay-img amazon-img">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pay-manual">
+          <div class="pay-manual-column">
+            <div class="pay-manual-help anonymously"><a href="#" class="pay-manual-anonymously">
+                How to pay anonymously <img class="pay-manual-arrow" src="img/icon/icon-arrow-right.svg"
+                  alt="arrow-right">
+              </a></div>
+            <div class="pay-manual-help redeem-card"><a href="#" class="pay-manual-redeem">
+                REDEEM GIFT CARD <img class="pay-manual-arrow" src="img/icon/icon-arrow-right.svg" alt="arrow-right">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-logo"><img src="img/logo.svg" alt="footer-logo" class="footer-logo-img"></div>
+      <div class="footer-column">
+        <div class="footer-company">
+          <p class="footer-header">Company</p>
+          <p>
+            <a href="#" class="footer-company-link">
+              About Us
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              Our Team
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              Careers
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              Press
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              In the Media
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              VPN Reviews
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              Companies We Support
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              Contact Us
+            </a>
+          </p>
+          <p>
+            <a href="#" class="footer-company-link">
+              Blog
+            </a>
+          </p>
+        </div>
+        <div class="footer-programs">
+          <p class="footer-header">programs</p>
+          <p><a href="#" class="footer-programs-link">Whitehat Security</a></p>
+          <p><a href="#" class="footer-programs-link footer-programs-affiliates">Affiliates</a></p>
+          <div class="footer-learn-more">
+            <p class="footer-header">learn more</p>
+            <p><a href="#" class="footer-learn-more-link">VPN Encryption</a></p>
+            <p><a href="#" class="footer-learn-more-link">Android VPN App</a></p>
+            <p><a href="#" class="footer-learn-more-link">iOS VPN App</a></p>
+            <p><a href="#" class="footer-learn-more-link">PIA Sitemap</a></p>
+          </div>
+          <div class="footer-social-mob fsm-learn-1">
+            <p class="footer-header">SOCIAL</p>
+            <a href="#" class="footer-social-link fb-ln-1"><i class="icon-fb"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-tw"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-google-plus"></i></a>
+            <a href="#" class="footer-social-link in-ln-4"><i class="icon-in"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-sl"></i></a>
+            <a href="#" class="footer-social-link footer-social-youtube"><i class="icon-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-legal">
+          <p class="footer-header">LEGAL</p>
+          <p><a href="#" class="footer-legal-link">Terms Of Service</a></p>
+          <p><a href="#" class="footer-legal-link">Privacy Policy</a></p>
+          <p><a href="#" class="footer-legal-link">DMCA Policy</a></p>
+          <p><a href="#" class="footer-legal-link">Export Control Policy</a></p>
+          <div class="footer-social-mob fsm-learn-2">
+            <p class="footer-header">SOCIAL</p>
+            <a href="#" class="footer-social-link"><i class="icon-fb"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-tw"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-google-plus"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-in"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-sl"></i></a>
+            <a href="#" class="footer-social-link footer-social-youtube"><i class="icon-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-about">
+          <p class="footer-header">ABOUT</p>
+          <p class="footer-about-1">Private Internet Access is the leading VPN Service provider specializing in secure,
+            encrypted VPN
+            <br>
+            tunnels which create several layers of privacy and security providing you safety on the internet. <br>
+            Our service is backed by multiple gateways worldwide with access in 28+ countries, 44+ regions.
+          </p>
+          <p class="footer-about-2">Map data provided by Google.</p>
+          <p class="footer-about-3">PC Mag Editor’s Choice award image reprinted with permission. &copy 2012 Ziff Davis,
+            Inc. All
+            Rights
+            Reserved.
+            <br>
+            PC Mag quote reprinted from www.pcmag.com with permission. &copy 2012 Ziff Davis, Inc. All Rights Reserved.
+          </p>
+          <p class="footer-about-4">&copy London Trust Media, Inc. All Rights Reserved.</p>
+          <div class="footer-social">
+            <p class="footer-header">SOCIAL</p>
+            <a href="#" class="footer-social-link"><i class="icon-fb"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-tw"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-google-plus"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-in"></i></a>
+            <a href="#" class="footer-social-link"><i class="icon-sl"></i></a>
+            <a href="#" class="footer-social-link footer-social-youtube"><i class="icon-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="js/script.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+    // ml-drop-1
+    function myFunctionOne() {
+      document.getElementById("ml-drop-1").classList.toggle("show");
+    }
+    // ml-drop-2
+    function myFunctionTwo() {
+      document.getElementById("ml-drop-2").classList.toggle("show");
+    }
+    // ml-drop-3
+    function myFunctionThree() {
+      document.getElementById("ml-drop-3").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+      if (!e.target.matches(".ml-drop-1")) {
+        var myDropdown = document.getElementById("ml-drop-1");
+        if (myDropdown.classList.contains("show")) {
+          myDropdown.classList.remove("show");
+        }
+      }
+      if (!e.target.matches(".ml-drop-2")) {
+        var myDropdown = document.getElementById("ml-drop-2");
+        if (myDropdown.classList.contains("show")) {
+          myDropdown.classList.remove("show");
+        }
+      }
+      if (!e.target.matches(".ml-drop-3")) {
+        var myDropdown = document.getElementById("ml-drop-3");
+        if (myDropdown.classList.contains("show")) {
+          myDropdown.classList.remove("show");
+        }
+      }
+    };
+  </script>
+</body>
+
+</html>
