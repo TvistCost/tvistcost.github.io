@@ -1,29 +1,6 @@
 # Илья Бармак
 Мои домашние задания
 
-[Урок 2](https://tvistcost.github.io/lesson_2/ "Мои домашние задания") - Работа с графикой для разработчика  
-[Урок 3](https://tvistcost.github.io/lesson_3/ "Мои домашние задания") - Работа с настройкой рабочего пространства  
-[Урок 4](https://tvistcost.github.io/lesson_4/ "Мои домашние задания") - Знакомство с основами HTML  
-[Урок 5](https://tvistcost.github.io/lesson_5/ "Мои домашние задания") - Знакомство с основами CSS  
-[Урок 6](https://tvistcost.github.io/lesson_6/ "Мои домашние задания") - Позиционирование в CSS  
-[Урок 7](https://tvistcost.github.io/lesson_7/ "Мои домашние задания") - Верстка первого макета  
-[Урок 8](https://tvistcost.github.io/lesson_8/ "Мои домашние задания") - Ускорение верстки в разы  
-[Урок 9](https://tvistcost.github.io/lesson_9/ "Мои домашние задания") - Верстка при помощи Bootstrap      
-[Урок 10](https://tvistcost.github.io/lesson_10/ "Мои домашние задания") - Препроцессор LESS для CSS  
-[Урок 11](https://tvistcost.github.io/lesson_11/ "Мои домашние задания") - Снипеты   
-[Урок 12](https://tvistcost.github.io/lesson_12/ "Мои домашние задания") - Работа с репозиторием на github  
-[Урок 13.1](https://tvistcost.github.io/lesson_13/ "Мои домашние задания") и [Урок 13.2](https://tvistcost.github.io/lesson_13_1/ "Мои домашние задания") - Адаптивная верстка. Подготовка файлов. Верстка шапки сайта  
-[Урок 14.1](https://tvistcost.github.io/lesson_14/ "Мои домашние задания") и [Урок 14.2](https://tvistcost.github.io/lesson_14_1/ "Мои домашние задания") - Подключение шрифотов. Верстка первого экрана  
-[Урок 15](https://tvistcost.github.io/lesson_15/ "Мои домашние задания") - Псевдоклассы и псевдоэлементы  
-[Урок 15.1](https://tvistcost.github.io/lesson_15_1/ "Мои домашние задания") - Эффекты при наведении и адаптив первого экрана  
-[Урок 17](https://tvistcost.github.io/lesson_17/ "Мои домашние задания") - Всплывающие окна  
-[Урок 18](https://tvistcost.github.io/lesson_18/ "Мои домашние задания") - Табы и аккордеон на сайте  
-[Урок 18.1](https://tvistcost.github.io/lesson_18_1/ "Мои домашние задания") - Верстка блока с ценами  
-[Урок 19](https://tvistcost.github.io/lesson_19/ "Мои домашние задания") - Анимация на CSS3  
-[Урок 19.1](https://tvistcost.github.io/lesson_19_1/ "Мои домашние задания") - Верстка блока с отзывами   
-[Урок 20](https://tvistcost.github.io/lesson_20/ "Мои домашние задания") - Видео-фон на сайте   
-[Урок 20.1](https://tvistcost.github.io/lesson_20_1/ "Мои домашние задания") - Доверстали блок с отзывами   
-[Урок 21](https://tvistcost.github.io/lesson_21/ "Мои домашние задания") - Parallax и Rellax эффект для сайт  
-[Урок 21.1](https://tvistcost.github.io/lesson_21_1/ "Мои домашние задания") - Верстаем схему работы и все включено   
-[Урок 22](https://tvistcost.github.io/lesson_22/ "Мои домашние задания") - Гео-карты для сайта  
-[Урок 22.1](https://tvistcost.github.io/lesson_22_1/ "Мои домашние задания") - Верстаем блок "Развеиваем сомнения"  
+[1 Верстка](https://tvistcost.github.io/test-project "Мои работы") - landing page с небольшим фуционалом js и обратной связю + админка
+[2 Верстка](https://tvistcost.github.io/lesson_3/ "Мои работы") - Работа с настройкой рабочего пространства  
+[3 Верстка](https://tvistcost.github.io/test-project "Мои работы") - Верстка новосного сайта
