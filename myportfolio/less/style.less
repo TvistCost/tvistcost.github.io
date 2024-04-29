@@ -1,0 +1,512 @@
+@font-face {
+  font-family: 'Gilroy-Reg';
+  src: url('../fonts/Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+      url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy-Regular.woff') format('woff'),
+      url('../fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-SBold';
+  src: url('../fonts/Gilroy-SemiBold.eot');
+  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+      url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+      url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iconbrandsarrows';
+  src:
+    url('../fonts/iconbrandsarrows.ttf?qu6was') format('truetype'),
+    url('../fonts/iconbrandsarrows.woff?qu6was') format('woff'),
+    url('../fonts/iconbrandsarrows.svg?qu6was#iconbrandsarrows') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconbrandsarrows' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fa:before {
+  content: "\e902";
+}
+
+.icon-tw:before {
+  content: "\e903";
+}
+
+.icon-in:before {
+  content: "\e904";
+}
+
+.icon-arrow-right:before {
+  content: "\e900";
+}
+
+.icon-arrow-left:before {
+  content: "\e901";
+}
+
+.reg(){
+  font-family: 'Gilroy-Reg', sans-serif;
+}
+
+.bold() {
+  font-family: 'Gilroy-SBold', sans-serif;
+}
+
+/* Screen resolutions */
+
+@screenResol1: 320px;
+@screenResol2: 480px;
+@screenResol3: 600px;
+@screenResol4: 768px;
+@screenResol5: 1024px;
+@screenResol6: 1280px;
+
+/* colors nav */
+@colorNavBg: #0A0D0D;
+@colorNavText: #85A6A4;
+@shadowNavImg: #85A6A4;
+@colorNavBtnBg: #FF0101;
+@colorNavBtnText: white;
+
+/* сolor main */
+@colorMainText: white;
+
+/* form color */
+@border-input: #dddddd;
+@light: #fff;
+
+/* ========================== Basiс setting ==========================*/
+html {
+  font-size: 10px;
+}
+
+button,
+input,
+a,
+textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  border: none;
+  text-transform: uppercase;
+  // transition: all 0.2s;
+}
+
+.container {
+  padding: 0 25px;
+}
+/*========================== Basic seting END ==========================*/
+
+/*========================= Form design ===========================================*/
+.form {
+  padding: 0rem 2rem;
+  background: @light;
+  text-align: center;
+  border: 1px solid #a3a8a8;
+  box-shadow: 2px 1px 5px rgb(122, 118, 118);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  /* поле для ввода  */
+  &-input,
+  &-textarea {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    border: 1px solid @border-input;
+    border-radius: 5px;
+  }
+  &-btn {
+    display: block;
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    background-color: #dfdf12;
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-size: 1.9rem;
+    .reg();
+    margin-bottom: 2rem;
+  }
+}
+textarea {
+  resize: none;
+}
+
+/*========================== Navigation =============================================*/
+
+.navbar {
+  background-color: @colorNavBg;
+  box-shadow: 0px 6px 50px 0px rgb(202, 202, 202);
+  a {
+    padding: 0;
+  }
+  &-brand {
+      img {
+        margin-top: 0.6rem;
+        max-width: 6rem;
+        box-shadow: 0px 0px 10px 0px @shadowNavImg;
+        border-radius: 50%;
+      }
+  }
+    .dev-block {
+      color: @colorNavText;
+    }
+    .dev-name {
+      font-size: 2.5rem;
+      .bold();
+      margin: 0.6rem 0 0 0;
+    }
+    .dev-link {
+      .reg();
+      font-size: 0.5rem;
+    } 
+}
+
+.dev-order{
+  display: table;
+  width: 100%;
+  height: 7rem;
+  &-block {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  &-btn {
+    background-color: @colorNavBtnBg;
+    color: @colorNavBtnText;
+    .bold();
+
+  }
+}
+
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+
+  &-block {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    &-list {
+      i {
+        font-size: 2rem;
+        color: @colorNavText;
+      }
+    }
+  }
+  
+}
+
+.nav-pills>li>a:focus {
+  color: black;
+  background-color: #55544c;
+}
+
+.nav-pills>li>a:hover {
+  background-color: #555345;
+  color: black;
+}
+/* ============================= navigation END =============================================*/
+
+/*============================= main =================================================*/
+
+.main {
+  padding: 4rem 0;
+  background: url('../img/main-bg.jpg') center no-repeat;
+  background-size: 100%;
+  margin-bottom: 100px;
+  &-title {
+    border-radius: 10px;
+    padding-right: 10px;
+    text-align: right;
+    background-color: #0A0D0D;
+    opacity: 0.6;
+  }
+  &-content {
+    margin-top: 10rem;
+    h1 {
+      color: @colorMainText;
+      .bold();
+      font-size: 3rem;
+      margin-bottom: 50px;
+    }
+  }
+  &-subtitle {
+    list-style: none;
+    padding: 0;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: @colorMainText;
+  }
+  &-btn {
+    margin-bottom: 100px;
+    &-portfolio{
+      height: 50px;
+    }
+    &_look {
+      text-align: right;
+
+    }
+  }
+}
+/*========================== main END ==========================*/
+
+/*========================== Portfolio ==========================*/
+.portfolio {
+  &-navbar{
+    margin-bottom: 60px;
+  }
+  &-header {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &-explanation {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &-gallery {
+    margin-bottom: 60px;
+  }
+}
+
+/* porfolio gallery setting start screen header */
+.thumb {
+  padding: 5px;
+  img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+  img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+  } 
+}
+/* porfolio gallery setting start screen header END */
+.budget {
+  margin-bottom: 30px;
+}
+
+/*========================== Portfolio END ==========================*/
+
+/*========================== Comments ==========================*/
+.comments {
+  padding: 4rem 0;
+  background: url('../img/header-bg.jpg') center no-repeat;
+  background-size: 100%;
+  margin-bottom: 100px;
+  &-header{
+    margin-bottom: 40px;
+  }
+}
+
+.comment {
+  &-customer{
+    background-color: #fff;
+    box-shadow: 6px 10px 18px 0px rgba(12, 8, 8, 0.19);
+    &-img {
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+    &-name {
+      margin: 0 auto;
+    }
+    &-text{
+      margin-top: 30px;
+    }
+    &-link {
+      display: block;
+      margin-bottom: 20px;
+    }
+    &-info {
+      margin-bottom: 25px;
+    }
+  }
+  &-slick{
+    &-prev {
+      left: -4rem;
+    }
+    &-next{
+      right: -4rem;
+    }
+    &-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+      background-color: white;
+      padding: 0px;
+      .icon-arrow-right{
+        width: 50%;
+        font-size: 2rem;
+        .bold();
+      }
+      .icon-arrow-left {
+        width: 50%;
+        font-size: 2rem;
+        .bold();
+      }
+    }
+  }
+}
+/*========================== Comments END ==========================*/
+
+/*========================== footer ================================*/ 
+/* setting for input  */
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus::placeholder {
+  color: transparent;
+}
+
+/*========================== footer END ================================*/
+
+/*============ popup porfolio gallery setting ===========*/
+
+  /* Styles for dialog window */
+  .small-dialog-style {
+    background: white;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 1200px;
+    margin: 40px auto;
+    position: relative;
+  }
+  
+  /**
+   * Fade-zoom animation for first dialog
+   */
+  
+  /* start state */
+  .my-mfp-zoom-in {
+    .zoom-anim-dialog {
+      opacity: 0;
+    
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    
+    
+    
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      -o-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    /* animate in */
+    &.mfp-ready .zoom-anim-dialog {
+      opacity: 1;
+    
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+    }
+    /* animate out */
+    &.mfp-removing .zoom-anim-dialog {
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      -o-transform: scale(0.8);
+      transform: scale(0.8);
+    
+      opacity: 0;
+    }
+    /* Dark overlay, start state */
+    &.mfp-bg {
+      opacity: 0;
+      -webkit-transition: opacity 0.3s ease-out;
+      -moz-transition: opacity 0.3s ease-out;
+      -o-transition: opacity 0.3s ease-out;
+      transition: opacity 0.3s ease-out;
+    }
+    /* animate in */
+    &.mfp-ready.mfp-bg {
+      opacity: 0.8;
+    }
+    /* animate out */
+    &.mfp-removing.mfp-bg {
+      opacity: 0;
+    }
+  }
+  
+/*================ popul setting gallery already called END ================*/
+
+
+/*========================== media queries ==========================*/
+@media (max-width: @screenResol6) {
+  
+}
+@media (max-width: @screenResol5) {
+
+}
+@media (max-width: @screenResol4) {
+  .navbar {
+    &-brand {
+      img {
+        margin-top: 0.3rem;
+        max-width: 4.5rem;
+      }
+    }
+  }
+  .social-networking-link {
+    display: none;
+  }
+}
+@media (max-width: @screenResol3) {
+
+}
+@media (max-width: @screenResol2) {
+
+}
+@media (max-width: @screenResol1) {
+
+}
+
+/*========================== media queries END ==========================*/
+
+
